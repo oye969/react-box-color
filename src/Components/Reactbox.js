@@ -2,13 +2,7 @@ import React from 'react';
 
 
 
-class Reactbox extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {color: "orange"};
-    this.switchColor = this.switchColor.bind(this);
-    this.clickTime = 0;      
-  }
+
 
 Increment = () => {
   this.setState({clickTime: this.state.clickTime + 1 });
